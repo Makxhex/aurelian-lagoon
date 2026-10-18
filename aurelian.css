@@ -76,3 +76,29 @@ body, p, td, th, li { font-family: 'Nunito Sans', Arial, sans-serif !important; 
 /* Harmonize the existing cave/mound images without replacing their art yet. */
 .feature img, img[src*='cave'], img[src*='mound'] { border: 1px solid rgba(230, 210, 160, .32) !important; border-radius: 8px !important; filter: saturate(.88) contrast(1.02) !important; }
 @media (max-width: 767px) { .container.main, .main { background: rgba(5, 25, 32, .57) !important; } }
+
+
+
+/* Main den cave card artwork — Aurelian */
+.cave-grid {overflow:hidden!important;border-radius:8px!important;border:1px solid rgba(218,194,159,.50)!important;}
+.cave-grid img {object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+/* Unsorted — The Veiled Path */
+img[src$="unsortedlionsbanner.png"] { content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/veiled-path.jpg")!important; height:60px!important; object-fit:cover!important; object-position:center!important; filter:none!important; }
+
+/* Nesting — The Wisteria Cradle */
+img[src$="nestingbanner.png"] { content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/wisteria-cradle.jpg")!important; height:60px!important; object-fit:cover!important; object-position:center!important; filter:none!important; }
+
+/* Pride Overview — The Stillwater Court */
+img[src$="overviewbanner.png"] { content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/stillwater-court.jpg")!important; height:60px!important; object-fit:cover!important; object-position:center!important; filter:none!important; }
+
+/* The Paramour's Pavilion — 553783 */
+a[href*="cave.php?id=553783"] > .cave-grid > img, a[href*="cave.php?id=553783"] .cave-grid img, a[href*="cave.php?id=553783"] img { content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/paramours-pavilion.jpg")!important; height:120px!important; object-fit:cover!important; object-position:center!important; filter:none!important; }
+
+/* The Consort's Pool — 555805 */
+a[href*="cave.php?id=555805"] > .cave-grid > img, a[href*="cave.php?id=555805"] .cave-grid img, a[href*="cave.php?id=555805"] img { content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/consorts-pool.jpg")!important; height:120px!important; object-fit:cover!important; object-position:center!important; filter:none!important; }
+
+/* Blossom Grove — 555806 */
+a[href*="cave.php?id=555806"] > .cave-grid > img, a[href*="cave.php?id=555806"] .cave-grid img, a[href*="cave.php?id=555806"] img { content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/blossom-grove.jpg")!important; height:120px!important; object-fit:cover!important; object-position:center!important; filter:none!important; }
+
+/* Future cave: Heir's Solace — add a cave-ID rule once created. */
