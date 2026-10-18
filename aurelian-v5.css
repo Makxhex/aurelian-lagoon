@@ -1,0 +1,167 @@
+/* AURELIAN'S MOONLIT LAGOON — original personal Lioden den CSS.
+   Keep aurelian.css and aurelian-lagoon.png in the same hosted folder.
+   The image is an original generated background selected for this design.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
+:root { --deep: #071d22; --sea: #123f45; --jade: #31716f; --moon: #f2ebdd; --gold: #c9b78a; --violet: #9276a8; }
+body {
+  background-color: #061c22 !important;
+  background-image: url('aurelian-lagoon.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: var(--moon);
+}
+.container.main, .main {
+  background: rgba(5, 25, 30, .76) !important;
+  border: 1px solid rgba(201,183,138,.48) !important;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, .42) !important;
+  border-radius: 12px !important;
+}
+.col-md-9 { background: transparent !important; }
+.topbar, .navbar, .navbar-default {
+  background: rgba(5, 29, 35, .92) !important;
+  color: var(--moon) !important;
+  border-color: rgba(201,183,138,.4) !important;
+}
+.navbar a, .navbar-default .navbar-nav > li > a, .topbar a { color: #f5eacb !important; }
+.navbar a:hover, .navbar-default .navbar-nav > li > a:hover { background: rgba(51,109,111,.67) !important; color: white !important; }
+.breadcrumb, .panel, .panel-default, .inner-table {
+  background: rgba(10, 42, 47, .88) !important;
+  color: #efece3 !important;
+  border-color: rgba(115,163,154,.4) !important;
+}
+.table .top, .table .bottom, .panel-heading, .panel-default > .panel-heading {
+  background: rgba(20, 75, 79, .96) !important;
+  color: #f5e8c6 !important;
+  border-color: rgba(201,183,138,.5) !important;
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.2em !important;
+}
+.table .right, .table .left, .table tr, .table td, tr.right, td.right,
+.inner-table .right, .inner-table .left {
+  background-color: rgba(10, 43, 48, .77) !important;
+  color: #f2eee3 !important;
+  border-color: rgba(98, 150, 148, .35) !important;
+}
+a, a:link { color: #a8e5d9; }
+a:hover { color: #ead0fa; }
+h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; color: #f5e8c6; }
+.btn, .btn-default, .feature {
+  background: rgba(30, 87, 87, .88) !important;
+  color: #fff0d5 !important;
+  border: 1px solid rgba(201,183,138,.45) !important;
+}
+.btn:hover, .feature:hover { background: rgba(69, 105, 116, .95) !important; }
+@media (max-width: 767px) {
+  body { background-attachment: scroll !important; background-position: center top !important; }
+  .container.main { background: rgba(5, 25, 30, .84) !important; }
+}
+
+/* V2 refinements: lighter overlays; ivory body text; luminous moonlit accents */
+:root { --moon: #f7f0e5; --gold: #e6d2a2; --jade: #5daca3; }
+body { color: #f7f0e5 !important; }
+.container.main, .main { background: rgba(5, 25, 32, .48) !important; border-color: rgba(230, 210, 160, .42) !important; }
+.breadcrumb, .panel, .panel-default, .inner-table { background: rgba(11, 41, 50, .68) !important; color: #f7f0e5 !important; }
+.table .top, .table .bottom, .panel-heading, .panel-default > .panel-heading { background: rgba(20, 72, 81, .79) !important; color: #f2deb5 !important; font-size: 1.05em !important; }
+.table .right, .table .left, .table tr, .table td, tr.right, td.right, .inner-table .right, .inner-table .left { background-color: rgba(10, 39, 47, .58) !important; color: #f7f0e5 !important; }
+.topbar, .navbar, .navbar-default { background: rgba(5, 28, 38, .82) !important; }
+h1, h2, h3, h4 { color: #eeddb7 !important; }
+a, a:link { color: #bbe3df !important; }
+a:hover { color: #f1dafa !important; }
+body, p, td, th, li { font-family: 'Nunito Sans', Arial, sans-serif !important; }
+.feature { background: rgba(16, 53, 62, .69) !important; }
+@media (max-width: 767px) { .container.main, .main { background: rgba(5, 25, 32, .57) !important; } }
+
+
+
+/* Corrected Lioden den cave art selectors — v4 */
+.cave-grid{overflow:hidden;border:1px solid rgba(227,200,165,.43)!important;border-radius:9px!important;background:rgba(7,30,38,.66)!important;}
+.cave-grid > img{height:120px!important;width:100%!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+/* Unsorted, nesting and pride overview have landscape header strips */
+img[src$="unsortedlionsbanner.png"],img[src$="nestingbanner.png"],img[src$="prideoverviewbanner.png"]{height:60px!important;object-fit:cover!important;filter:none!important;}
+
+img[src$="unsortedlionsbanner.png"]{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/veiled-path.jpg")!important;height:60px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+img[src$="nestingbanner.png"]{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/wisteria-cradle.jpg")!important;height:60px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+img[src$="prideoverviewbanner.png"]{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/stillwater-court.jpg")!important;height:60px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href$="553783"] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/paramours-pavilion.jpg")!important;height:120px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href$="555805"] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/consorts-pool.jpg")!important;height:120px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href$="555806"] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/blossom-grove.jpg")!important;height:120px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href*="unsorted.php?id="] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/veiled-path.jpg")!important;height:60px!important;object-fit:cover!important;}
+a[href*="lionoverview.php?id="] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/stillwater-court.jpg")!important;height:60px!important;object-fit:cover!important;}
+
+/* =============================================================
+   V5 — AMETHYST & SAPPHIRE COURT
+   Intentional color polish ONLY. Retains all proven v4 cave-art
+   selectors and their hosted images above.
+   ============================================================= */
+:root{
+ --aurelian-sapphire:#183c72;
+ --aurelian-amethyst:#563575;
+ --aurelian-plum:#321c52;
+ --aurelian-ivory:#fff5e9;
+ --aurelian-moon:#d7e5ff;
+ --aurelian-gold:#e8cfa4;
+}
+/* Preserve the image itself; make the transparent overlays cooler and lighter. */
+.container.main,.main{
+ background:rgba(7,16,44,.46)!important;
+ border-color:rgba(171,157,225,.36)!important;
+}
+.breadcrumb,.panel,.panel-default,.inner-table{
+ background:rgba(12,23,60,.65)!important;
+ border-color:rgba(153,139,209,.37)!important;
+ color:var(--aurelian-ivory)!important;
+}
+.table .right,.table .left,.table tr,.table td,tr.right,td.right,
+.inner-table .right,.inner-table .left{
+ background-color:rgba(11,21,55,.61)!important;
+ border-color:rgba(151,167,228,.23)!important;
+ color:var(--aurelian-ivory)!important;
+}
+.table .top,.table .bottom,.panel-heading,.panel-default>.panel-heading{
+ background:linear-gradient(110deg,rgba(52,34,100,.92),rgba(24,56,116,.91))!important;
+ border-color:rgba(205,183,237,.42)!important;
+ color:var(--aurelian-gold)!important;
+}
+.topbar,.navbar,.navbar-default{
+ background:rgba(15,20,58,.84)!important;
+ border-color:rgba(151,167,228,.37)!important;
+}
+h1,h2,h3,h4{color:var(--aurelian-gold)!important;}
+a,a:link{color:#c9d7ff!important;}a:hover{color:#f0cfff!important;}
+/* Gold/tan navigation cards and action bars: visually replace the orange. */
+.feature,.btn,.btn-default,.btn-primary,.btn-success,
+button:not(.close),input[type="submit"],
+.dynasty,.dynastyButton,
+a[href*="dynasty"],a[href*="achievement"],a[href*="showcase"],a[href*="beetle"]{
+ background-color:var(--aurelian-amethyst)!important;
+ background-image:linear-gradient(110deg,#493073,#20457c)!important;
+ border-color:rgba(208,188,235,.58)!important;
+ color:var(--aurelian-ivory)!important;
+}
+.btn:hover,.btn-default:hover,.btn-primary:hover,button:not(.close):hover,input[type="submit"]:hover{
+ background-image:linear-gradient(110deg,#64418a,#2b59a0)!important;
+ color:#fff!important;
+}
+/* Lioden's orange dynasty/action surfaces may use these wrappers. */
+.dynasty-link,.dynasty-box,.dynasty-card,.bookmarks .btn,.dynasty,
+.featured{border-color:rgba(208,188,235,.5)!important;}
+/* Keep photographs untouched and upgrade only their labels. */
+.cave-grid{border-color:rgba(182,165,235,.58)!important;background:rgba(10,20,53,.64)!important;}
+.cave-grid .cave-name,.cave-grid .name,.cave-grid h3,
+.cave-grid .bottom,.cave-grid .cave-text{
+ background-color:rgba(20,22,68,.88)!important;
+ color:var(--aurelian-ivory)!important;
+}
+/* Make editing fields legible and avoid blanket text overrides. */
+input:not([type="submit"]),textarea,select{background-color:#f6f0ff!important;color:#182443!important;}
+@media(max-width:767px){.container.main,.main{background:rgba(7,16,44,.54)!important;}}
