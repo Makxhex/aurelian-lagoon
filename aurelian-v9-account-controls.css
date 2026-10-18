@@ -1,0 +1,378 @@
+/* AURELIAN'S MOONLIT LAGOON — original personal Lioden den CSS.
+   Keep aurelian.css and aurelian-lagoon.png in the same hosted folder.
+   The image is an original generated background selected for this design.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
+:root { --deep: #071d22; --sea: #123f45; --jade: #31716f; --moon: #f2ebdd; --gold: #c9b78a; --violet: #9276a8; }
+body {
+  background-color: #061c22 !important;
+  background-image: url('aurelian-lagoon.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: var(--moon);
+}
+.container.main, .main {
+  background: rgba(5, 25, 30, .76) !important;
+  border: 1px solid rgba(201,183,138,.48) !important;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, .42) !important;
+  border-radius: 12px !important;
+}
+.col-md-9 { background: transparent !important; }
+.topbar, .navbar, .navbar-default {
+  background: rgba(5, 29, 35, .92) !important;
+  color: var(--moon) !important;
+  border-color: rgba(201,183,138,.4) !important;
+}
+.navbar a, .navbar-default .navbar-nav > li > a, .topbar a { color: #f5eacb !important; }
+.navbar a:hover, .navbar-default .navbar-nav > li > a:hover { background: rgba(51,109,111,.67) !important; color: white !important; }
+.breadcrumb, .panel, .panel-default, .inner-table {
+  background: rgba(10, 42, 47, .88) !important;
+  color: #efece3 !important;
+  border-color: rgba(115,163,154,.4) !important;
+}
+.table .top, .table .bottom, .panel-heading, .panel-default > .panel-heading {
+  background: rgba(20, 75, 79, .96) !important;
+  color: #f5e8c6 !important;
+  border-color: rgba(201,183,138,.5) !important;
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.2em !important;
+}
+.table .right, .table .left, .table tr, .table td, tr.right, td.right,
+.inner-table .right, .inner-table .left {
+  background-color: rgba(10, 43, 48, .77) !important;
+  color: #f2eee3 !important;
+  border-color: rgba(98, 150, 148, .35) !important;
+}
+a, a:link { color: #a8e5d9; }
+a:hover { color: #ead0fa; }
+h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; color: #f5e8c6; }
+.btn, .btn-default, .feature {
+  background: rgba(30, 87, 87, .88) !important;
+  color: #fff0d5 !important;
+  border: 1px solid rgba(201,183,138,.45) !important;
+}
+.btn:hover, .feature:hover { background: rgba(69, 105, 116, .95) !important; }
+@media (max-width: 767px) {
+  body { background-attachment: scroll !important; background-position: center top !important; }
+  .container.main { background: rgba(5, 25, 30, .84) !important; }
+}
+
+/* V2 refinements: lighter overlays; ivory body text; luminous moonlit accents */
+:root { --moon: #f7f0e5; --gold: #e6d2a2; --jade: #5daca3; }
+body { color: #f7f0e5 !important; }
+.container.main, .main { background: rgba(5, 25, 32, .48) !important; border-color: rgba(230, 210, 160, .42) !important; }
+.breadcrumb, .panel, .panel-default, .inner-table { background: rgba(11, 41, 50, .68) !important; color: #f7f0e5 !important; }
+.table .top, .table .bottom, .panel-heading, .panel-default > .panel-heading { background: rgba(20, 72, 81, .79) !important; color: #f2deb5 !important; font-size: 1.05em !important; }
+.table .right, .table .left, .table tr, .table td, tr.right, td.right, .inner-table .right, .inner-table .left { background-color: rgba(10, 39, 47, .58) !important; color: #f7f0e5 !important; }
+.topbar, .navbar, .navbar-default { background: rgba(5, 28, 38, .82) !important; }
+h1, h2, h3, h4 { color: #eeddb7 !important; }
+a, a:link { color: #bbe3df !important; }
+a:hover { color: #f1dafa !important; }
+body, p, td, th, li { font-family: 'Nunito Sans', Arial, sans-serif !important; }
+.feature { background: rgba(16, 53, 62, .69) !important; }
+@media (max-width: 767px) { .container.main, .main { background: rgba(5, 25, 32, .57) !important; } }
+
+
+
+/* Corrected Lioden den cave art selectors — v4 */
+.cave-grid{overflow:hidden;border:1px solid rgba(227,200,165,.43)!important;border-radius:9px!important;background:rgba(7,30,38,.66)!important;}
+.cave-grid > img{height:120px!important;width:100%!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+/* Unsorted, nesting and pride overview have landscape header strips */
+img[src$="unsortedlionsbanner.png"],img[src$="nestingbanner.png"],img[src$="prideoverviewbanner.png"]{height:60px!important;object-fit:cover!important;filter:none!important;}
+
+img[src$="unsortedlionsbanner.png"]{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/veiled-path.jpg")!important;height:60px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+img[src$="nestingbanner.png"]{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/wisteria-cradle.jpg")!important;height:60px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+img[src$="prideoverviewbanner.png"]{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/stillwater-court.jpg")!important;height:60px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href$="553783"] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/paramours-pavilion.jpg")!important;height:120px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href$="555805"] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/consorts-pool.jpg")!important;height:120px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href$="555806"] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/blossom-grove.jpg")!important;height:120px!important;object-fit:cover!important;object-position:center!important;filter:none!important;}
+
+a[href*="unsorted.php?id="] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/veiled-path.jpg")!important;height:60px!important;object-fit:cover!important;}
+a[href*="lionoverview.php?id="] > div.cave-grid > img{content:url("https://cdn.jsdelivr.net/gh/Makxhex/aurelian-lagoon@main/stillwater-court.jpg")!important;height:60px!important;object-fit:cover!important;}
+
+/* =============================================================
+   V5 — AMETHYST & SAPPHIRE COURT
+   Intentional color polish ONLY. Retains all proven v4 cave-art
+   selectors and their hosted images above.
+   ============================================================= */
+:root{
+ --aurelian-sapphire:#183c72;
+ --aurelian-amethyst:#563575;
+ --aurelian-plum:#321c52;
+ --aurelian-ivory:#fff5e9;
+ --aurelian-moon:#d7e5ff;
+ --aurelian-gold:#e8cfa4;
+}
+/* Preserve the image itself; make the transparent overlays cooler and lighter. */
+.container.main,.main{
+ background:rgba(7,16,44,.46)!important;
+ border-color:rgba(171,157,225,.36)!important;
+}
+.breadcrumb,.panel,.panel-default,.inner-table{
+ background:rgba(12,23,60,.65)!important;
+ border-color:rgba(153,139,209,.37)!important;
+ color:var(--aurelian-ivory)!important;
+}
+.table .right,.table .left,.table tr,.table td,tr.right,td.right,
+.inner-table .right,.inner-table .left{
+ background-color:rgba(11,21,55,.61)!important;
+ border-color:rgba(151,167,228,.23)!important;
+ color:var(--aurelian-ivory)!important;
+}
+.table .top,.table .bottom,.panel-heading,.panel-default>.panel-heading{
+ background:linear-gradient(110deg,rgba(52,34,100,.92),rgba(24,56,116,.91))!important;
+ border-color:rgba(205,183,237,.42)!important;
+ color:var(--aurelian-gold)!important;
+}
+.topbar,.navbar,.navbar-default{
+ background:rgba(15,20,58,.84)!important;
+ border-color:rgba(151,167,228,.37)!important;
+}
+h1,h2,h3,h4{color:var(--aurelian-gold)!important;}
+a,a:link{color:#c9d7ff!important;}a:hover{color:#f0cfff!important;}
+/* Gold/tan navigation cards and action bars: visually replace the orange. */
+.feature,.btn,.btn-default,.btn-primary,.btn-success,
+button:not(.close),input[type="submit"],
+.dynasty,.dynastyButton,
+a[href*="dynasty"],a[href*="achievement"],a[href*="showcase"],a[href*="beetle"]{
+ background-color:var(--aurelian-amethyst)!important;
+ background-image:linear-gradient(110deg,#493073,#20457c)!important;
+ border-color:rgba(208,188,235,.58)!important;
+ color:var(--aurelian-ivory)!important;
+}
+.btn:hover,.btn-default:hover,.btn-primary:hover,button:not(.close):hover,input[type="submit"]:hover{
+ background-image:linear-gradient(110deg,#64418a,#2b59a0)!important;
+ color:#fff!important;
+}
+/* Lioden's orange dynasty/action surfaces may use these wrappers. */
+.dynasty-link,.dynasty-box,.dynasty-card,.bookmarks .btn,.dynasty,
+.featured{border-color:rgba(208,188,235,.5)!important;}
+/* Keep photographs untouched and upgrade only their labels. */
+.cave-grid{border-color:rgba(182,165,235,.58)!important;background:rgba(10,20,53,.64)!important;}
+.cave-grid .cave-name,.cave-grid .name,.cave-grid h3,
+.cave-grid .bottom,.cave-grid .cave-text{
+ background-color:rgba(20,22,68,.88)!important;
+ color:var(--aurelian-ivory)!important;
+}
+/* Make editing fields legible and avoid blanket text overrides. */
+input:not([type="submit"]),textarea,select{background-color:#f6f0ff!important;color:#182443!important;}
+@media(max-width:767px){.container.main,.main{background:rgba(7,16,44,.54)!important;}}
+
+
+/* =============================================================
+   V6 — MOONSTONE AMETHYST TYPOGRAPHY
+   Larger readable lavender body text; iridescent gradient headings.
+   Keep cave images and sapphire/amethyst panels from V5 intact.
+   ============================================================= */
+:root{
+ --aurelian-lilac:#e0caff;
+ --aurelian-orchid:#d6aaff;
+ --aurelian-ice:#c7dcff;
+ --aurelian-deep-lilac:#bfa0f0;
+}
+/* A subtle glow without sacrificing text contrast on dark cards. */
+body, .container.main, .main, p, li, td, th, small,
+.panel, .panel-default, .inner-table, .breadcrumb,
+.table .right, .table .left, .table tr, .table td,
+.inner-table .right, .inner-table .left,
+.feature, .cave-grid .name, .cave-grid .bottom,
+.cave-grid .cave-name, .cave-grid .cave-text {
+ color:var(--aurelian-lilac)!important;
+}
+body {font-size:16px!important;}
+p, li, td, th, .feature, .panel, .cave-grid .bottom, .cave-grid .name,
+.cave-grid .cave-name, .cave-grid .cave-text {
+ font-size:1.06em!important;
+ line-height:1.45!important;
+ text-shadow:0 1px 4px rgba(20,5,58,.34);
+}
+/* Gradient lettering gives a pearlescent effect without adding graphics. */
+h1,h2,h3,h4,.table .top,.table .bottom,
+.panel-heading,.panel-default>.panel-heading{
+ color:#dfc4ff!important;
+ background-image:linear-gradient(105deg,#ebc7ff 8%,#bfc9ff 43%,#f0b7fd 70%,#b6d9ff 100%);
+ -webkit-background-clip:text;
+ background-clip:text;
+ -webkit-text-fill-color:transparent;
+ text-shadow:none;
+}
+/* Header bars retain their background gradients; their text remains lilac. */
+.table .top,.table .bottom,.panel-heading,.panel-default>.panel-heading{
+ background-image:linear-gradient(110deg,rgba(52,34,100,.92),rgba(24,56,116,.91))!important;
+ -webkit-background-clip:border-box;
+ background-clip:border-box;
+ -webkit-text-fill-color:#e4c8ff;
+ font-size:1.22em!important;
+}
+/* Readable glowing lilac link and label colors. */
+a,a:link,a:visited{color:#d6c3ff!important;}
+a:hover,a:focus{color:#f1d6ff!important;}
+.btn,.btn-default,.btn-primary,.btn-success,button:not(.close),
+input[type="submit"], .feature, .cave-grid .bottom,
+.cave-grid .cave-name,.cave-grid .cave-text{
+ color:#eddaff!important;
+}
+/* Form fields and notification boxes should remain legible. */
+input:not([type="submit"]),textarea,select{color:#352451!important;text-shadow:none!important;}
+.alert-success,.alert-info,.alert-warning,.alert-danger{color:#283d46!important;text-shadow:none!important;}
+/* Mobile: slightly larger but do not blow up the two-column cave layout. */
+@media(max-width:767px){
+ body{font-size:15.5px!important;}
+ .cave-grid .bottom,.cave-grid .name,.cave-grid .cave-name{font-size:1em!important;}
+ .table .top,.table .bottom,.panel-heading,.panel-default>.panel-heading{font-size:1.16em!important;}
+}
+
+/* V6B — deeper sapphire veil over the EXISTING image (no artwork changes). */
+html body {
+ background-color:#07152f!important;
+ background-image:linear-gradient(rgba(5,15,55,.30),rgba(7,19,59,.30)),url('aurelian-lagoon.png')!important;
+ background-position:center center!important;
+ background-repeat:no-repeat!important;
+ background-size:cover!important;
+ background-attachment:fixed!important;
+}
+@media(max-width:767px){html body{background-attachment:scroll!important;background-position:center top!important;}}
+
+
+/* V7 -- replace Lioden's orange dynasty tiles and lower account links.
+   Photos and cave banner replacements are intentionally unchanged. */
+.dynastylist .left,
+.dynastylist a > .left,
+.dynastylist a .left,
+a > div.left,
+a:link > div.left,
+a:visited > div.left {
+  background: linear-gradient(120deg, #36245e 0%, #232f70 58%, #172d65 100%) !important;
+  background-color: #29265b !important;
+  border: 1px solid rgba(183,148,238,.72) !important;
+  color: #e3ccff !important;
+  box-shadow: 0 3px 10px rgba(4,8,35,.27) !important;
+  text-shadow: none !important;
+}
+.dynastylist .left:hover,
+a:hover > div.left {
+  background: linear-gradient(120deg,#563280,#284782) !important;
+  border-color: #d4b6ff !important;
+}
+/* Tile titles: don't inherit pale almost-invisible lettering. */
+.dynastylist h3,
+.dynastylist .left h3,
+a > div.left h3 {
+  color: #ebd8ff !important;
+  -webkit-text-fill-color: #ebd8ff !important;
+  background-image: none !important;
+  font-size: 1.14em !important;
+  font-weight: 600 !important;
+  text-shadow: 0 1px 3px rgba(8,6,26,.45) !important;
+}
+/* Lioden's horizontal action pills and form buttons */
+.select-control,
+button.button,
+input[type='button'],
+input[type='submit'],
+input[type='reset'],
+.btn,
+.btn-default {
+  background: linear-gradient(110deg,#3d246b,#1d3b7c) !important;
+  background-color: #29265b !important;
+  border: 1px solid rgba(174,145,229,.68) !important;
+  color: #eddcff !important;
+  -webkit-text-fill-color: #eddcff !important;
+  text-shadow:none !important;
+}
+.select-control:hover,
+button.button:hover,
+input[type='button']:hover,
+input[type='submit']:hover,
+input[type='reset']:hover,
+.btn:hover,
+.btn-default:hover {
+  background: linear-gradient(110deg,#65418f,#28538c) !important;
+  color: #fff4ff !important;
+  -webkit-text-fill-color: #fff4ff !important;
+}
+/* Explicitly exclude the game meters and alert status bars. */
+
+
+/* V8: Last two orange account controls (Edit Your Details and Account Settings).
+   Scoped to den footer actions; no changes to cave imagery or in-game meters. */
+a[href*="edit_details"], a[href*="edit_details"]:link,
+a[href*="account_settings"], a[href*="account_settings"]:link,
+a[href*="edit_details"] > *,a[href*="account_settings"] > *,
+a[href*="edit-details"],a[href*="account-settings"],
+a[href*="editdetails"],a[href*="accountsettings"],
+/* Lioden's lower toolbar uses btn and link wrappers with styled inner blocks */
+.main a[href*="edit"]:has(> .left),.main a[href*="account"]:has(> .left),
+.main a[href*="edit"] > .left,.main a[href*="account"] > .left,
+/* Common account action classes and toggles */
+#edit-details,#editDetails,#edit-details-toggle,#editdetails,
+.account-settings,.accountsettings,.edit-details,.editdetails,
+#account-settings,#accountsettings {
+  background:linear-gradient(110deg,#3d246b,#1d3b7c)!important;
+  background-color:#32265e!important;
+  border:1px solid rgba(174,145,229,.68)!important;
+  color:#eddaff!important;
+  -webkit-text-fill-color:#eddaff!important;
+  text-shadow:none!important;
+}
+/* Catch account links styled as Bootstrap collapse rows or CTA blocks */
+.main a[href*="account.php"],.main a[href*="account_settings"],
+.main a[href*="edit_details"],.main a[href*="edit.php"],
+.main a[href*="account.php"] > div,.main a[href*="edit.php"] > div {
+  background-image:linear-gradient(110deg,#3d246b,#1d3b7c)!important;
+  background-color:#32265e!important;
+  border-color:rgba(174,145,229,.68)!important;
+  color:#eddaff!important;
+  -webkit-text-fill-color:#eddaff!important;
+}
+
+
+/* V9: target the real container around bottom account controls.
+   Earlier rules changed anchor text while the parent's orange background remained.
+   Keep this at the END to win the cascade. */
+/* Account Settings link, its immediate display wrapper and clickable parent */
+.main a[href*="account"],
+.main a[href*="account"] > *,
+.main div:has(> a[href*="account"]) :is(a,button),
+.main div:has(> a[href*="account"]):not(.row):not(.container):not(.col-md-12):not(.col-sm-12),
+.main div:has(> .btn[href*="account"]):not(.row):not(.container),
+.main .btn[href*="account"],
+.main a[href*="account"] .btn,
+.main a[href*="account"] .left {
+ background:#30255d!important;
+ background-image:linear-gradient(110deg,#39245f,#203a75)!important;
+ border-color:rgba(184,146,230,.72)!important;
+ color:#eedaff!important;
+ -webkit-text-fill-color:#eedaff!important;
+ text-shadow:none!important;
+}
+/* Edit Your Details: the original orange collapsible heading can be a panel, link,
+   or a div holding a collapse toggle. Scope to lower edit-related controls. */
+.main a[href*="details"],
+.main a[href*="details"] > *,
+.main div:has(> a[href*="details"]):not(.row):not(.container):not(.col-md-12):not(.col-sm-12),
+.main div:has(> a[href*="edit"]):not(.row):not(.container):not(.col-md-12):not(.col-sm-12),
+.main a[href*="edit"] > *,
+.main #edit_details,
+.main #editdetails,
+.main #edit-details,
+.main .editdetails,
+.main .edit-details,
+.main [data-target*="detail"],
+.main [data-bs-target*="detail"],
+.main [aria-controls*="detail"] {
+ background:#30255d!important;
+ background-image:linear-gradient(110deg,#39245f,#203a75)!important;
+ border-color:rgba(184,146,230,.72)!important;
+ color:#eedaff!important;
+ -webkit-text-fill-color:#eedaff!important;
+ text-shadow:none!important;
+}
