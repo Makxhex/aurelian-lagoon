@@ -1,0 +1,61 @@
+/* AURELIAN'S MOONLIT LAGOON — original personal Lioden den CSS.
+   Keep aurelian.css and aurelian-lagoon.png in the same hosted folder.
+   The image is an original generated background selected for this design.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
+:root { --deep: #071d22; --sea: #123f45; --jade: #31716f; --moon: #f2ebdd; --gold: #c9b78a; --violet: #9276a8; }
+body {
+  background-color: #061c22 !important;
+  background-image: url('aurelian-lagoon.png') !important;
+  background-position: center center !important;
+  background-size: cover !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+  font-family: 'Nunito Sans', sans-serif !important;
+  color: var(--moon);
+}
+.container.main, .main {
+  background: rgba(5, 25, 30, .76) !important;
+  border: 1px solid rgba(201,183,138,.48) !important;
+  box-shadow: 0 10px 45px rgba(0, 0, 0, .42) !important;
+  border-radius: 12px !important;
+}
+.col-md-9 { background: transparent !important; }
+.topbar, .navbar, .navbar-default {
+  background: rgba(5, 29, 35, .92) !important;
+  color: var(--moon) !important;
+  border-color: rgba(201,183,138,.4) !important;
+}
+.navbar a, .navbar-default .navbar-nav > li > a, .topbar a { color: #f5eacb !important; }
+.navbar a:hover, .navbar-default .navbar-nav > li > a:hover { background: rgba(51,109,111,.67) !important; color: white !important; }
+.breadcrumb, .panel, .panel-default, .inner-table {
+  background: rgba(10, 42, 47, .88) !important;
+  color: #efece3 !important;
+  border-color: rgba(115,163,154,.4) !important;
+}
+.table .top, .table .bottom, .panel-heading, .panel-default > .panel-heading {
+  background: rgba(20, 75, 79, .96) !important;
+  color: #f5e8c6 !important;
+  border-color: rgba(201,183,138,.5) !important;
+  font-family: 'Cormorant Garamond', Georgia, serif !important;
+  font-size: 1.2em !important;
+}
+.table .right, .table .left, .table tr, .table td, tr.right, td.right,
+.inner-table .right, .inner-table .left {
+  background-color: rgba(10, 43, 48, .77) !important;
+  color: #f2eee3 !important;
+  border-color: rgba(98, 150, 148, .35) !important;
+}
+a, a:link { color: #a8e5d9; }
+a:hover { color: #ead0fa; }
+h1, h2, h3, h4 { font-family: 'Cormorant Garamond', Georgia, serif; color: #f5e8c6; }
+.btn, .btn-default, .feature {
+  background: rgba(30, 87, 87, .88) !important;
+  color: #fff0d5 !important;
+  border: 1px solid rgba(201,183,138,.45) !important;
+}
+.btn:hover, .feature:hover { background: rgba(69, 105, 116, .95) !important; }
+@media (max-width: 767px) {
+  body { background-attachment: scroll !important; background-position: center top !important; }
+  .container.main { background: rgba(5, 25, 30, .84) !important; }
+}
