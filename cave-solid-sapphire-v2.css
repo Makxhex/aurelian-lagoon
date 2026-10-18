@@ -1,0 +1,18 @@
+/* Aurelian — cave interior, solid midnight sapphire + V6 lavender typography.
+   Intentionally no image rules or cave-grid/image replacements. */
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Nunito+Sans:wght@400;600;700&display=swap');
+html, body {
+  background: #0b1733 !important;
+  background-color: #0b1733 !important;
+  background-image: none !important;
+  background-attachment: scroll !important;
+}
+body { font-family:'Nunito Sans',Arial,sans-serif!important; font-size:16px!important; color:#e0caff!important; }
+p,li,td,th,.panel,.table,.inner-table { font-family:'Nunito Sans',Arial,sans-serif!important; color:#e0caff!important; }
+p,li,td,th {line-height:1.46!important;}
+h1,h2,h3,h4,h5,h6 {font-family:'Cormorant Garamond',Georgia,serif!important;color:#dfc4ff!important;letter-spacing:.2px;}
+h1,h2,h3,h4 {background-image:linear-gradient(105deg,#ebc7ff 8%,#bfc9ff 43%,#f0b7fd 70%,#b6d9ff 100%); -webkit-background-clip:text; background-clip:text; -webkit-text-fill-color:transparent;}
+.table .top,.table .bottom,.panel-heading,.panel-default>.panel-heading {font-family:'Cormorant Garamond',Georgia,serif!important;color:#e4c8ff!important;font-size:1.12em!important;}
+a,a:link,a:visited {color:#d6c3ff!important;} a:hover,a:focus {color:#f1d6ff!important;}
+input:not([type='submit']),textarea,select {color:#352451!important;}
+@media(max-width:767px){body{font-size:15.5px!important;}.table .top,.table .bottom,.panel-heading{font-size:1.1em!important;}}
